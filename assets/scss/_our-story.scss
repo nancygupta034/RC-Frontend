@@ -1,0 +1,230 @@
+
+.ff-heading
+{
+    font-family: $headingFont;
+}
+.inner-section
+{
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    &:before
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        // background-image: linear-gradient(to right, rgba($black, .28), rgba($black, 0));
+        background-image: linear-gradient(to right, rgba($black, .47), rgba($black, 0));
+        width: 50%;
+        height: 100%;
+        z-index: -1;
+    }
+    @include media-breakpoint-down(md){
+        min-height: auto;
+    }
+}
+.innsec-title
+{
+    @include font-size(48px);
+    color: $primary;
+    font-weight: 700;
+    @include media-breakpoint-up(xxl){
+        @include font-size(55px);
+    }
+}
+.innsec-content
+{
+    @include font-size(18px);
+}
+.counter-section
+{
+    background-image: $bg-gradient-light;
+}
+.nth-row
+{
+    >div{
+        &:last-child
+        {
+            .card-counter
+            {
+                border-right: 0;
+                border-bottom: 0;
+                // @include media-breakpoint-down(md){
+                    
+                // }
+            }
+        }
+    }
+}
+.card-counter
+{
+    border-right: 1px solid $secondary;
+    padding: 0 20px;
+    @include media-breakpoint-up(xxl){
+        padding: 0 30px;
+    }
+    .card-number
+    {
+        @include font-size(60px);
+        font-family: $headingFont;
+        font-weight: 700;
+        color: $secondary;
+        line-height: normal;
+        border-bottom: 5px solid $primary;
+        padding: 20px 0;
+        position: relative;
+        @include media-breakpoint-up(xxl){
+            @include font-size(70px);
+        }
+        &:before
+        {
+            content: attr(data-count);
+            display: block;
+            height: 1px;
+            overflow: hidden;
+            visibility: hidden;
+            margin-right: 40px;
+        }
+    }
+    .card-text
+    {
+        @include font-size(19px);
+        font-weight: 500;
+        color: $secondaryLight;
+        line-height: normal;
+        @include media-breakpoint-up(xxl){
+            @include font-size(24px);
+        }
+    }
+}
+.our-story-section
+{
+    position: relative;
+    z-index: 1;
+    &:before
+    {
+        content: "";
+        position: absolute;
+        left: 25%;
+        top: 30px;
+        background-image: url(../images/dots-radius.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 40%;
+        height: 65%;
+        opacity: .15;
+        z-index: -1;
+    }
+}
+.img-wrapper
+{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    .img-square
+    {
+        border-radius: 28px 164px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 15px 30px rgba($black, .16);
+        width: 100%;
+    }
+    .img-circle
+    {
+        --circleWidth: 210px;
+        margin-left: calc(var(--circleWidth) / 2 * -1);
+        margin-bottom: 40px;
+        position: relative;
+        z-index: 1;
+        .inner
+        {
+            border-radius: 50%;
+            overflow: hidden;
+            width: var(--circleWidth);
+            height: var(--circleWidth);
+        }
+    }
+    img
+    {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.card-team
+{
+    text-decoration: none;
+    box-shadow: none;
+    will-change: transform;
+    .card-img
+    {
+        padding-bottom: 100%;
+        img
+        {
+            transition: transform .3s ease-out;
+            will-change: transform;
+        }
+    }
+    .card-body
+    {
+        padding-top: 20px;
+        .card-title
+        {
+            margin-bottom: 5px;
+            @include font-size(20px);
+            line-height: normal;
+            font-family: $headingFont;
+        }
+        .card-text
+        {
+            font-weight: 500;
+            @include font-size(15px);
+            color: $black;
+        }
+    }
+    .border-link
+    {
+        color: $secondaryLight;
+        position: relative;
+        padding-left: 50px;
+        transition: .3s ease-out;
+        &:before
+        {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 55px;
+            border: 1px solid $secondaryLight;
+            left: -15px;
+            transition: .3s ease-out;
+        }
+    }
+    &:hover
+    {
+        .card-img
+        {
+            img
+            {
+                transform: scale(1.05);
+            }
+        }
+        .border-link
+        {
+            padding-left: 60px;
+            &:before
+            {
+                width: 65px;
+            }
+        }
+    }
+}

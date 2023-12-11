@@ -1,0 +1,63 @@
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1500px, );
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1440px, );
+$rfs-breakpoint: 1500px;
+
+// Color Palette
+$primary: #FCD200;
+
+$secondary: #154768;
+$secondaryLight:#3A89C9;
+$secondary1:#1D5FAB;
+$secondary2:#E4F3FF;
+
+$lightGray:#E4E4E4;
+
+
+$borderColor: #707070;
+$border2:#ccc;
+$border3:#E4F3FF;
+$darkGray: #2B2B2B;
+$darkGraylight: #ABABAB;
+
+$bodyTextColor: #333333;
+$placeholderColor: #606060;
+$white: #fff;
+$black: #000;
+$textDark: #616161;
+$danger: #dc3545;
+
+
+$h1size: 40px;
+$h2size: 26px;
+$h3size: 20px;
+$h4size: 18px;
+$h5size: 17px;
+$bodyFontSize: 14px;
+$bodyLineHeight: 1.5;
+$bodyFontFamily: 'Roboto', sans-serif;
+$headingFont: 'Lora', serif;
+$rubikFont: 'Rubik', sans-serif;
+
+$headerShadow:0 2px 5px rgba($black, 0.15);
+$boxShadow: 5px 5px 15px rgba($black, 0.16); 
+
+$enable-negative-margins: true;
+
+$bg-gradient-light: linear-gradient(-160deg, #C6DCEE, #E4EEF7, #E4F3FF);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+);
+
+
+$form-select-indicator-white: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-caret-down-fill' viewBox='0 0 16 16'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>");
+
+$form-select-indicator-black: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='black' class='bi bi-caret-down-fill' viewBox='0 0 16 16'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>");

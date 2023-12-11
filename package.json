@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host='192.168.0.118'",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@types/node": "^18.16.19",
+    "dayjs-nuxt": "^2.1.9",
+    "nuxt": "^3.6.5"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.22",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@vee-validate/nuxt": "^4.11.1",
+    "@vee-validate/rules": "^4.11.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "flatpickr": "^4.6.13",
+    "gsap": "^3.12.2",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.0",
+    "nuxt-sweetalert2": "^1.0.0",
+    "pinia": "^2.1.6",
+    "sass": "^1.63.6",
+    "sweetalert2": "^11.7.23",
+    "swiper": "^10.0.4",
+    "vee-validate": "^4.11.0",
+    "vue-google-autocomplete": "^1.1.4"
+  }
+}

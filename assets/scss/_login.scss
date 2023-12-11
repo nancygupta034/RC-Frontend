@@ -1,0 +1,49 @@
+.section-login{
+    padding: 80px 0 30px;
+    position: relative;
+    &:after{
+        top: 0%;
+        content: '';
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        background: $secondary2;
+        z-index: 1;
+    }
+}
+.blueBg{
+    width: 100%;
+    position: relative;
+    &:before{
+        top: 50%;
+        transform: translateY(-50%);
+        content: '';
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        border-radius:200px;
+        z-index: 2;
+    }
+    .container{
+        position: relative;
+        z-index: 4;
+    }
+    .loginBox{
+        background: $white;
+        padding:40px;
+        color: $black;
+        box-shadow: 0 0px 6px rgba($black,0.20);
+        border-radius: 20px;
+        margin: 10px 0;     
+        @include media-breakpoint-down(sm){
+            padding:30px 15px;
+            border-radius: 15px;
+        }
+    }
+    .newPatientBox{
+        color: $white;
+        padding-left: 50px;
+    }
+}
+
+label span{color:$danger;}

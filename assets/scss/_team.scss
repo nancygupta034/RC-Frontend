@@ -1,0 +1,45 @@
+.team-section
+{
+    background-image: $bg-gradient-light;
+}
+.card-start
+{
+    .clinician-bio 
+    {
+        .card-img
+        {
+            max-width: 230px;
+            @include media-breakpoint-up(xxl){
+                max-width: 282px;
+            }
+        }
+    }
+    
+    .card-img
+    {
+        max-width: 282px;
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-info
+    {
+        >a
+        {
+            margin-bottom: 4px;
+            display: inline-block;
+            text-decoration: none;
+            color: $secondary;
+            transition: .3s ease-out;
+            &:last-child
+            {
+                margin-bottom: 0;
+            }
+            &:hover
+            {
+                color: $secondaryLight;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="63.636" viewBox="0 0 50 63.636">
+  <g id="location-company" transform="translate(-7.5 -3)">
+    <path id="Path_3813" data-name="Path 3813" d="M32.5,66.636,13.327,44.025q-.4-.509-.791-1.025A24.748,24.748,0,0,1,7.5,28a25,25,0,1,1,50,0,24.736,24.736,0,0,1-5.034,14.993l0,.007s-.682.9-.784,1.016ZM16.164,40.261s.532.7.652.85L32.5,59.609,48.2,41.086c.1-.125.632-.83.634-.832A20.229,20.229,0,0,0,52.954,28a20.455,20.455,0,1,0-40.909,0,20.239,20.239,0,0,0,4.12,12.261Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Path_3814" data-name="Path 3814" d="M39.227,34.727H34.682V16.545H21.045V34.727H16.5V16.545A4.55,4.55,0,0,1,21.045,12H34.682a4.55,4.55,0,0,1,4.545,4.545Z" transform="translate(4.636 4.636)" fill="#fff"/>
+    <path id="Path_3815" data-name="Path 3815" d="M22.5,24h4.545v4.545H22.5Z" transform="translate(7.727 10.818)" fill="#fff"/>
+    <path id="Path_3816" data-name="Path 3816" d="M22.5,18h4.545v4.545H22.5Z" transform="translate(7.727 7.727)" fill="#fff"/>
+  </g>
+</svg>

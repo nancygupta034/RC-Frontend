@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+        "title": "Welcome to your mental health journey",
+        "content": "<p>Responsive Centers provides services to children, adolescents, adults, couples, families, and older adults in a caring and supportive environment.</p>",
+        "image": "assets/images/hero1.jpg"
+    },
+    {
+        "title": "Work with clinicians who value your goals",
+        "content": "<p>Our psychologists, social workers, and therapists are trained in the latest techniques for identifying, understanding, and treating a wide range of mental health conditions.</p>",
+        "image": "assets/images/hero2.jpg"
+    },
+    {
+        "title": "Ready to take the next step?",
+        "content": "<p>We are dedicated to helping clients reach their personal goals, solve difficult problems, and achieve a sense of mastery in their lives.</p>",
+        "image": "assets/images/hero3.jpg"
+    }
+  ],
+
+  "services": [
+    {
+      "title": "Therapy",
+      "content": "<p>Therapy provides a safe and confidential space for individuals, couples, and families to explore their thoughts, feelings, and experiences – fostering self-awareness and emotional healing through guided conversation.</p>",
+      "image": "assets/images/service1.jpg",
+      "linkName": "Make an Appointment",
+      "link": "/clinicians"
+    },
+    {
+      "title": "Medication Management",
+      "content": "<p>Medication management is a regular process that considers changes in an individual’s health, lifestyle, and medication advancements to ensure ongoing effectiveness and safety.</p>",
+      "image": "assets/images/medication-management.jpeg",
+      "linkName": "Make an Appointment",
+      "link": "/clinicians"
+    },
+    {
+      "title": "Psychological Testing",
+      "content": "<p>Psychological testing utilizes standardized assessments and tools to objectively measure and evaluate various aspects of an individual's cognitive, emotional, and behavioral functioning.</p>",
+      "image": "assets/images/service1.jpg",
+      "linkName": "Request an Appointment",
+      "link": ""
+    },
+    {
+      "title": "Neuropsychological Testing",
+      "content": "<p>Neuropsychological testing involves a comprehensive evaluation of an individual's cognitive functions, behavior, and emotional status to assess brain-related changes due to injury, illness, or neurological conditions.</p>",
+      "image": "assets/images/service1.jpg",
+      "linkName": "Request an Appointment",
+      "link": ""
+    },
+    {
+      "title": "Spravato",
+      "content": "<p>Spravato is an intranasal formulation of ketamine that is administered in a clinical setting under supervision, usually in combination with an oral antidepressant, for treatment-resistant depression or other conditions.</p>",
+      "image": "assets/images/service1.jpg",
+      "linkName": "Request an Appointment",
+      "link": ""
+    },
+    {
+      "title": "Mindbloom",
+      "content": "<p>Sublingual ketamine - don’t have to be watched - see Saha for an evaluation - medication gets delivered to their home</p>",
+      "image": "assets/images/service1.jpg",
+      "linkName": "Request an Appointment",
+      "link": ""
+    }
+  ]
+}

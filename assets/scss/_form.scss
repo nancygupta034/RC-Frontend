@@ -1,0 +1,331 @@
+.form-card
+{
+    border-radius: 8px;
+    position: relative;
+    z-index: 11;
+    max-width: 400px;
+    width: 100%;
+    @include media-breakpoint-up(xxl){
+        max-width: 450px;
+    }
+    @include media-breakpoint-down(lg){
+        max-width: 100%;
+    }
+}
+.form-group
+{
+    margin-bottom: 2rem;
+}
+.label-wrap
+{
+    position: relative;
+    label
+    {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        left: 18px;
+        pointer-events: none;
+        background-color: $secondary;
+        padding: 0 8px;
+        transition: .3s ease-out;          
+        @include media-breakpoint-down(sm){
+            left:10px;
+            font-size: 14px;
+        }
+    }
+    .form-control, .form-select
+    {
+        background-color: transparent;
+        color: $white;
+        padding: 1rem .7rem 1rem 26px;
+        border-radius: 4px;
+        box-shadow: none!important;
+        line-height: 1.5;
+        &::placeholder
+        {
+            @include font-size(14px);
+        }
+        &:-webkit-autofill, 
+        &:-webkit-autofill:hover, 
+        &:-webkit-autofill:focus, 
+        &:-webkit-autofill:active
+        {
+            -webkit-box-shadow: 0 0 0 40px $secondary inset !important;
+            -webkit-text-fill-color: $white !important;
+        }
+          
+        @include media-breakpoint-down(sm){
+            padding:14px 16px;
+            font-size: 14px;
+        }
+    }
+    .form-select
+    {
+        background-image: $form-select-indicator-white;
+        option
+        {
+            color: $black;
+        }
+        
+    }
+    .form-control:focus + label, .form-select:focus + label
+    {
+        color: $primary;
+    }
+}
+.custom-scrollbar
+{
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $white; 
+        border-radius: 80px;
+    }
+}
+
+.custom-scrollbar-black
+{
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $secondary; 
+        border-radius: 80px;
+    }
+}
+.table-appo
+{
+    &.black{
+        border-color: $black !important;
+        *{
+            color:$black !important;
+            th{color:$secondary !important}
+            li{
+                border-color: $borderColor !important;
+                color: $borderColor;
+                cursor: pointer;
+                &.active{
+                    background: $primary;
+                }
+            }
+            
+        }
+    }
+    white-space: nowrap;
+    &.table > :not(caption) > * > *
+    {
+        background-color: transparent;
+        color: $white;
+    }
+    thead
+    {
+        th,td
+        {
+            padding: .5rem 1.3rem;
+            text-align: center;
+        }
+    }
+    tbody
+    {
+        th,td
+        {
+            padding: .7rem;
+        }
+    }
+    td
+    {
+        ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li
+            {
+                &+li
+                {
+                    margin-top: 10px;
+                }
+                @include font-size(12px);
+                text-align: center;
+                border: 1px solid $border3;
+                border-radius: 4px;
+                line-height: normal;
+                padding: 5px 8px;
+            }
+        }
+    }
+}
+.form-select
+{
+    background-size: 20px 20px;
+    &.arrow-black
+    {
+        background-image: $form-select-indicator-black;
+    }
+}
+.search-section
+{
+    --searcHeight: 70px;
+    margin-top: calc(var(--searcHeight) / 2 * -1);
+    position: relative;
+    z-index: 1;
+}
+.search-wrapper
+{
+    background-color: $white;
+    border-radius: 57px;
+    border: 1px solid $borderColor;
+    padding:  0 20px;
+    height: var(--searcHeight);
+    select, input
+    {
+        background-color: transparent;
+        border: 0!important;
+        box-shadow: none!important;
+        box-shadow: none;
+        padding: 10px 15px;
+        height: 100%;
+        @include font-size(17px);
+        option
+        {
+            @include font-size(14px);
+        }
+    }
+    .input-group
+    {
+       .input-group-text
+        {
+            background-color: transparent;
+            border: 0;
+        }
+    }
+}
+.icon-calendar
+{
+    background-image: url(../images/calendar.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+}
+
+.form-black
+{
+    .label-wrap
+    {
+        label
+        {
+            background-color: $white;
+            color: $black;
+        }
+        input, select, textarea
+        {
+            color: $black;
+            border-color: $black;
+            &:focus
+            {
+                
+            }
+        }
+        .form-control:focus + label, .form-select:focus + label
+        {
+            color: $black;
+        }
+
+        .form-control, .form-select{
+            &:-webkit-autofill, 
+            &:-webkit-autofill:hover, 
+            &:-webkit-autofill:focus, 
+            &:-webkit-autofill:active
+            {
+                -webkit-box-shadow: 0 0 0 40px $white inset !important;
+                -webkit-text-fill-color: $black !important;
+            }
+        }
+    }
+    .form-select
+    {
+        background-image: $form-select-indicator-black;
+    }
+}
+.has-error
+{
+    border-color: red!important;
+}
+.has-error + label 
+{
+    color: red!important;
+}
+.btn-search
+{
+    border-radius: 4px;
+    padding: 10px;
+    width: 50px;
+    min-width: auto;
+    color: $secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    @include media-breakpoint-up(xl){
+        height: 55px;
+    }
+    @include media-breakpoint-down(xl){
+        width: 100%;
+    }
+}
+.form-appo
+{
+    background-color: $white;
+    padding: 25px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba($black, .16);
+    label, .form-control, .form-select
+    {
+        @include font-size(12px);
+        @include media-breakpoint-up(xxl){
+            @include font-size(14px); 
+        }
+    }
+    .label-wrap label{
+        left: 12px;
+    }
+    .form-select{
+        background-size: 14px 14px;
+        padding: 1rem 0.7rem 1rem 18px;
+    }
+   
+    .form-group
+    {
+        margin-bottom: 0;
+    }
+}
+
+.section-appointment
+{
+    position: relative;
+    overflow: hidden;
+    .form-wrapper
+    {
+        &:before
+        {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 50%;
+            left: -5000px;
+            right: -5000px;
+            background-color: $secondary2;
+            z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "teams": [
+    {
+        "id": "1",
+        "title": "Vishal Adma, MD",
+        "des": "President and CEO",
+        "mail": "vadma@responsivecenters.com",
+        "phone": "",
+        "slug": "vishal-adma-md", 
+        "content": "<p>Dr. Adma is a board-certified psychiatrist and a physician executive with extensive leadership experience. He has an extensive list of work experiences and professional accomplishments which include being the founder, President & CEO of Integrated Psychiatric Consultants, P.A., Medical Director at KVC Hospitals, Inc. a subsidiary of KVC Health Systems, Inc. for over 20 years, Assistant Professor at University of Kansas Medical Center and Kansas City University of Medicine and Biosciences. He was a Physician Surveyor for The Joint Commission in the United States and is currently a Physician Surveyor for Joint Commission International. His educational achievements include residency training in Psychiatry from the University of Kansas Medical Center, a Master’s in Nutrition and Food Management from the University of Central Oklahoma, a Certification in Medical Quality from the American Board of Medical Quality, and a Certification as a Physician Executive through American College of Physician Executives.</p><p>Dr. Adma has won several awards throughout his career. He won the “Student Voice Award”, special recognition of his dedication to teaching medical students. He was selected as the “Resident of the Year” in Psychiatry. He won the “Dorland Health People Award” which is awarded at a national level to honor excellence and dedication for healthcare professionals. He has been recognized as the “Professional Leader of the Year” by the Asian American Chamber of Commerce in Kansas City. He has been honored by the American Psychiatric Association as a Distinguished Fellow. He also won the “Excellence in Medicine” award from the American Telugu Association in 2018.</p>",
+        "image": "assets/images/vishal-adma-md.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Ryan Speier",
+      "des": "Chief Operating Officer",
+      "mail": "rspeier@responsivecenters.com",
+      "phone": "",
+      "slug": "ryan-speier", 
+      "content": "<p>Ryan Speier is a healthcare executive with 15+ years of experience working predominately in the behavioral/mental health field, leading multidisciplinary teams across a bi-state network of inpatient and outpatient services. He successfully led the growth of a hospital network expanding to multiple locations in two states through strategic growth and acquisitions.</p><p>As a leader, Ryan focuses on improving patient satisfaction and care outcomes, increasing employee retention and achievement scores, and enhancing internal communication. Ryan strives to deliver on business growth and development, healthcare integration, governmental relations, and forming strategic partnerships. He is driven by the mission and belief that all patients deserve the best care provided with the utmost respect and compassion and he instills this passion in all teams he leads.</p><p>As Responsive Centers’ Chief Operating Officer, Ryan provides oversight to the management team for the day-to-day operations, financial outcomes, business strategy and growth and ensures the satisfaction of our clients and providers.</p>",
+      "image": "assets/images/ryan-speier.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Jon Corbin",
+        "des": "Chief Financial Officer",
+        "mail": "jcorbin@responsivecenters.com",
+        "phone": "",
+        "slug": "jon-corbin", 
+        "content": "<p>Jon Corbin is a finance executive with 20 years combined experience in leading the finance and operational objectives for both a nonprofit healthcare organization and private equity-backed insurance brokerage. Jon’s experiences also include the sourcing, negotiation, closing, and integration of acquired businesses and talent through merger and acquisition activity.</p><p>Jon enjoys the challenge of a high-growth, fast-paced business environment.</p>",
+        "image": "assets/images/jon-corbin.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Krystal Speier, LCPC",
+      "des": "Clinical Director",
+      "mail": "kspeier@responsivecenters.com",
+      "phone": "",
+      "slug": "krystal-speier-lcpc", 
+      "content": "<p>“I am not what happened to me, I am what I choose to become!” Carl Gustav Jung.</p><p>Krystal’s passion has always been with helping others and has a long history of supporting families through difficult times while helping them find the light in the darkness of the difficulty. She prides herself in being able to understand others’ needs, whether it be couples, individuals, adolescents, or the whole family to experience the most this life has to offer.</p><p>She actively works as a team player with her clients to help them discover solutions to the issues they experience. She specializes in working with trauma and abuse, PTSD, children, adolescents, and adults. The treatment modalities she primarily works with are CBT and Trauma Systems Therapy.</p><p>Krystal graduated from Fort Hays State University with a BS in Psychology and went on to get her MS in Community Counseling. She has a long history of working with a variety of clients. She has spent years working in psychiatric hospitals for children and Psychiatric Residential Treatment Facility (PRTF) with children and their families. She has worked with children and families in the foster care system to assist in achieving permanency in the home or getting back into the biological home. Krystal has engaged in individual, group, family, and couples therapy. She obtained her clinical license in September of 2014 and became a nationally certified counselor in 2017. In 2020 she became a Board-Approved Clinical Supervisor and in 2021 she was approved for licensure in the State of MO as well. She is currently dual licensed in the state of Kansas and Missouri as a Licensed Clinical Professional Counselor. In addition to her direct client care services, she has a history of developing and presenting training sessions on trauma-informed care and working as the lead member of a team challenged to implement Positive Behavior Interventions and Supports (PBIS) within a system of care.</p>",
+      "image": "assets/images/krystal-speier-lcpc.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Carly Tucker",
+      "des": "Practice Manager",
+      "mail": "ctucker@responsivecenters.com",
+      "phone": "",
+      "slug": "carly-tucker", 
+      "content": "<p></p>",
+      "image": ""
+    }
+  ]
+}
